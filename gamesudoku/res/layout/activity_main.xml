@@ -1,0 +1,45 @@
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" 
+        android:layout_gravity="center"
+        android:background="#70ffff00"
+        >
+  
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Sudoku Game"
+        android:textSize="24.5sp"
+        />
+    <Button 
+        android:id="@+id/btnnewgame"
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="New Game"
+        android:textColor="#FFFFFF"
+        android:background="#d07500ff"
+        />
+    <Button 
+        android:id="@+id/btncontinue"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:background="#d07500ff"
+        />
+    <Button 
+        android:id="@+id/btnexit"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:background="#d07500ff"
+        />
+    
+</LinearLayout>
